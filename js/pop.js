@@ -35,3 +35,46 @@ function sortUserName() {
 //OutPut
 document.writeln("Hey, I fixed your name: ",
         sortUserName(), "</br>"); 
+
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(alertFunc, 3000);
+}
+
+function alertFunc() {
+  alert("You've been on for a while, would you like a break?");
+}
+</script>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(alertFunc, 10000);
+}
+
+function alertFunc() {
+  alert("Take a break");
+}
+</script>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(alertFunc, 15000);
+}
+
+function alertFunc() {
+  alert("GET OFF, TAKE A BREAK!");
+}
+</script>
