@@ -8,6 +8,77 @@
   </head>
   <body>
     <h1>Pop Up</h1>
+    <!-- <button onclick="myFunction()">Try it</button> -->
+
+    <script>
+    var myVar;
+    var x = new Boolean(false);
+      // if (x){
+          function alertFunc() {
+            // alert("You've been on for a while, would you like a break?");
+            if (confirm("You've been on for a while, would you like a break?")) { 
+              txt = "You pressed OK!"; 
+              // x = false;
+            } else { 
+              txt = "You pressed Cancel!"; 
+            var x = new Boolean(false);
+            }
+          }
+          function myFunction() {
+            myVar = setTimeout(alertFunc, 1000);
+          }
+        myFunction();
+      // }
+      if (x) {
+        function myFunction() {
+          myVar = setTimeout(alertFunc, 2000);
+        }
+        myFunction();
+      }
+      else {
+        function alertFunc1() {
+          alert("GET OFF, TAKE A BREAK!");
+        }
+        myVar = setTimeout(alertFunc1(), 4000);
+      }
+
+
+
+
+
+    // function alertFunc() {
+    //   alert("You've been on for a while, would you like a break?");
+    // }
+
+    </script>
+
+    <!-- <button onclick="myFunction()">Try it</button>
+
+    <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(alertFunc, 10000);
+    }
+
+    function alertFunc() {
+      alert("Take a break");
+    }
+    </script>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <script>
+    var myVar;
+
+    function myFunction() {
+      myVar = setTimeout(alertFunc, 15000);
+    }
+
+    function alertFunc() {
+      alert("GET OFF, TAKE A BREAK!");
+    }
+    </script> -->
     <p>A pop up that reminds you to get off your computer.
       We want to limit the amount of time we spend on the computer,
       so we set a timer than makes a pop up to remind us to get up for 30 minutes.

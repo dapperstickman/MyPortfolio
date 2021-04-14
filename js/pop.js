@@ -16,65 +16,22 @@
 
 
 
-//sortUserName
-function sortUserName() {
-  var userName = window.prompt("Hi, please tell me your name so I can fix it.");
-  console.log("userName =", userName);
-  //Split string to array
-  var nameArray = userName.split('');
-  console.log("nameArray =", nameArray);
-  //Sort array
-  var nameArraySort = nameArray.sort();
-  console.log("nameArraySort =", nameArraySort);
-  //Join array back to string
-  var nameSorted = nameArraySort.join('');
-  console.log("nameSorted =", nameSorted);
-  return nameSorted;
-}
-
-//OutPut
-document.writeln("Hey, I fixed your name: ",
-        sortUserName(), "</br>"); 
-
-
-<button onclick="myFunction()">Try it</button>
-
-<script>
-var myVar;
-
-function myFunction() {
-  myVar = setTimeout(alertFunc, 3000);
-}
-
-function alertFunc() {
-  alert("You've been on for a while, would you like a break?");
-}
-</script>
-
-<button onclick="myFunction()">Try it</button>
-
-<script>
-var myVar;
-
-function myFunction() {
-  myVar = setTimeout(alertFunc, 10000);
-}
-
-function alertFunc() {
-  alert("Take a break");
-}
-</script>
-
-<button onclick="myFunction()">Try it</button>
-
-<script>
-var myVar;
-
-function myFunction() {
-  myVar = setTimeout(alertFunc, 15000);
-}
-
-function alertFunc() {
-  alert("GET OFF, TAKE A BREAK!");
-}
-</script>
+// //sortUserName
+// function sortUserName() {
+//   var userName = window.prompt("Hi, please tell me your name so I can fix it.");
+//   console.log("userName =", userName);
+//   //Split string to array
+//   var nameArray = userName.split('');
+//   console.log("nameArray =", nameArray);
+//   //Sort array
+//   var nameArraySort = nameArray.sort();
+//   console.log("nameArraySort =", nameArraySort);
+//   //Join array back to string
+//   var nameSorted = nameArraySort.join('');
+//   console.log("nameSorted =", nameSorted);
+//   return nameSorted;
+// }
+//
+// //OutPut
+// document.writeln("Hey, I fixed your name: ",
+//         sortUserName(), "</br>"); 
