@@ -1,0 +1,29 @@
+body {
+    font-family: 'helvetica';
+    background-color: white;
+    padding: 20px;
+    font-size: 120%;
+    text-align: left;
+}
+
+p {
+    font-family: 'helvetica';
+    padding: 45px;
+    margin: auto;
+    color: black;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px grey;
+    background: rgb(187,213,255);
+    background: linear-gradient(90deg, rgba(187,213,255,1) 0%, rgba(232,242,255,1) 51%, rgba(187,213,255,1) 100%);
+}
+
+
+h1, h2, h3 {
+    font-family: 'helvetica';
+    line-height: 55px;
+    color: rgb(60,60,60);
+    font-size: 50px;
+    font-weight: bolder;
+    font-variant: normal;
+    padding-left: 30px;
+}

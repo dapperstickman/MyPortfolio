@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css" href="css/pop.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
     <title>MyPopUp</title>
   </head>
   <body>
@@ -25,32 +26,64 @@
             }
           }
           function myFunction() {
-            myVar = setTimeout(alertFunc, 1000);
+            myVar = setTimeout(alertFunc, 5000);
           }
         myFunction();
-      // }
-      if (x) {
-        function myFunction() {
-          myVar = setTimeout(alertFunc, 2000);
-        }
-        myFunction();
-      }
-      else {
-        function alertFunc1() {
-          alert("GET OFF, TAKE A BREAK!");
-        }
-        myVar = setTimeout(alertFunc1(), 4000);
-      }
-
-
-
-
-
-    // function alertFunc() {
-    //   alert("You've been on for a while, would you like a break?");
-    // }
 
     </script>
+
+    <script>
+    var test;
+
+    function myFunction() {
+      test = setTimeout(alertFunc, 10000);
+    }
+
+    function alertFunc() {
+      alert("Take a break");
+    }
+    myFunction();
+    </script>
+
+    <script>
+    var test;
+
+    function myFunction() {
+      test = setTimeout(alertFunc, 15000);
+    }
+
+    function alertFunc() {
+      alert("GET OFF, TAKE A BREAK!");
+    }
+    myFunction();
+    </script>
+    <!-- // }
+    // if (x) {
+    //   function myFunction() {
+    //     myVar = setTimeout(alertFunc, 10000);
+    //   }
+    //   myFunction();
+    // }
+    // else {
+    //   function alertFunc1() {
+    //     alert("GET OFF, TAKE A BREAK!");
+    //   }
+    //   myVar = setTimeout(alertFunc1(), 15000);
+    // }
+    // if (x) {
+    //   function myFunction() {
+    //     myVar = setTimeout(alertFunc, 15000);
+    //   }
+    //   myFunction();
+    // }
+
+
+
+
+
+  // function alertFunc() {
+  //   alert("You've been on for a while, would you like a break?");
+  // } -->
 
     <!-- <button onclick="myFunction()">Try it</button>
 
@@ -81,7 +114,7 @@
     </script> -->
     <p>A pop up that reminds you to get off your computer.
       We want to limit the amount of time we spend on the computer,
-      so we set a timer than makes a pop up to remind us to get up for 30 minutes.
+      so we set a timer that creates a pop up to remind us to get off for 30 minutes.
       There is a "I'm in the middle of a project button" that allows you to continue going if needed,
       but otherwise the popup won't go away unless you take a 30 minute break.</p>
       <!-- <h5>Script OutPut</h5> -->
