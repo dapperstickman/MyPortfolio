@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>MyPopUp</title>
+    <script src="js/pop.js" defer></script>
   </head>
   <body>
     <div class="jumbotron jumbotron-fluid";>
@@ -22,168 +23,17 @@
      <img src="img/mypopup.png" width=300>
      <br>
    </div>
-    <h1>Welcome to My Pop Up!</h1>
-    <!-- <button onclick="myFunction()">Try it</button> -->
-
-    <script>
-    var myVar;
-    var x = new Boolean(false);
-      // if (x){
-          function alertFunc() {
-            // alert("You've been on for a while, would you like a break?");
-            if (confirm("You've been on for a while, would you like a break?")) { 
-              txt = "You pressed OK!"; 
-              // x = false;
-            } else { 
-              txt = "You pressed Cancel!"; 
-            var x = new Boolean(false);
-            }
-          }
-          function myFunction() {
-            myVar = setTimeout(alertFunc, 5000);
-            <embed src='SoundURLHere' autostart='true' hidden='true' loop='true' name="jukebox">
-          }
-        myFunction();
-
-    </script>
-
-    <script>
-    var test;
-
-    function myFunction() {
-      test = setTimeout(alertFunc, 10000);
-      <embed src='SoundURLHere' autostart='true' hidden='true' loop='true' name="jukebox">
-    }
-
-    function alertFunc() {
-      alert("Take a break");
-    }
-    myFunction();
-    </script>
-
-    <script>
-    var test;
-
-    function myFunction() {
-      test = setTimeout(alertFunc, 15000);
-      <embed src='SoundURLHere' autostart='true' hidden='true' loop='true' name="jukebox">
-    }
-
-    function alertFunc() {
-      alert("GET OFF, TAKE A BREAK!");
-    }
-    myFunction();
-    </script> -->
-    <!-- // }
-    // if (x) {
-    //   function myFunction() {
-    //     myVar = setTimeout(alertFunc, 10000);
-    //   }
-    //   myFunction();
-    // }
-    // else {
-    //   function alertFunc1() {
-    //     alert("GET OFF, TAKE A BREAK!");
-    //   }
-    //   myVar = setTimeout(alertFunc1(), 15000);
-    // }
-    // if (x) {
-    //   function myFunction() {
-    //     myVar = setTimeout(alertFunc, 15000);
-    //   }
-    //   myFunction();
-    // }
-
-
-
-
-
-  // function alertFunc() {
-  //   alert("You've been on for a while, would you like a break?");
-  // }
-
-    <!-- <button onclick="myFunction()">Try it</button>
-
-    <script>
-    var myVar;
-
-    function myFunction() {
-      myVar = setTimeout(alertFunc, 10000);
-    }
-
-    function alertFunc() {
-      alert("Take a break");
-    }
-    </script>
-
-    <button onclick="myFunction()">Try it</button>
-
-    <script>
-    var myVar;
-
-    function myFunction() {
-      myVar = setTimeout(alertFunc, 15000);
-    }
-
-    function alertFunc() {
-      alert("GET OFF, TAKE A BREAK!");
-    }
-    </script> -->
+    <h2>Welcome to My Pop Up!</h2>
     <p>My Pop Up is a pop up that reminds you to get off your computer!<br>
       We want to limit the amount of time we spend on the computer,
       so we set a timer that creates a pop up to remind us to get off for 30 minutes.
       There is a "I'm in the middle of a project button" that allows you to continue going if needed,
       but otherwise the popup won't go away unless you take a 30 minute break.</p>
-      <!-- <h5>Script OutPut</h5> -->
-<!-- <script src="js/pop.js" defer></script>
-    <div>
-      <u1>
-				<a href="pop.html">Pop</a>
-      </u1>
-    </div>
-    <p>Click the button to wait 3 seconds, then alert "Hello".</p>
-
-  <button onclick="myFunction()">Try it</button>
-
-  <script>
-  var myVar;
-
-  function myFunction() {
-    myVar = setTimeout(alertFunc, 3000);
-  }
-
-  function alertFunc() {
-    alert("You've been on for a while, would you like a break?");
-  }
-  </script>
-
-  <button onclick="myFunction()">Try it</button>
-
-  <script>
-  var myVar;
-
-  function myFunction() {
-    myVar = setTimeout(alertFunc, 10000);
-  }
-
-  function alertFunc() {
-    alert("Time to take a break");
-  }
-  </script>
-
-  <button onclick="myFunction()">Try it</button>
-
-  <script>
-  var myVar;
-
-  function myFunction() {
-    myVar = setTimeout(alertFunc, 15000);
-  }
-
-  function alertFunc() {
-    alert("GET OFF, TAKE A BRE");
-  }
-  </script> -->
+    <!-- <h3>Output</h3>
+      <div id="output">
+        <source src="audio/mpeg/alert.mp3" type="audio/mpeg">
+      </div> -->
+    <button onclick="play()">Play Audio</button>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
