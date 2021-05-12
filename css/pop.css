@@ -1,29 +1,62 @@
-body {
-    font-family: 'helvetica';
-    background-color: white;
-    padding: 20px;
-    font-size: 120%;
-    text-align: left;
+.jumbotron{
+  background-size: cover;
+  background: rgb(198,235,255);
+  background: linear-gradient(0deg, rgba(198,235,255,1) 0%, rgba(118,193,233,1) 100%);
 }
-
-p {
-    font-family: 'helvetica';
-    padding: 45px;
-    margin: auto;
-    color: black;
-    border-radius: 50px;
-    box-shadow: 10px 10px 10px grey;
-    background: rgb(187,213,255);
-    background: linear-gradient(90deg, rgba(187,213,255,1) 0%, rgba(232,242,255,1) 51%, rgba(187,213,255,1) 100%);
+body{
+  background-color: #FFFFFF;
 }
-
-
-h1, h2, h3 {
-    font-family: 'helvetica';
-    line-height: 55px;
-    color: rgb(60,60,60);
-    font-size: 50px;
-    font-weight: bolder;
-    font-variant: normal;
-    padding-left: 30px;
+main{
+  margin:40px;
+  padding: 40px;
+}
+h1{
+  font-family: 'Varela Round', sans-serif;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  font-size: 70px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+h2{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 40px;
+  color: rgba(100,183,228,1);
+  text-align: center;
+  padding-bottom: 20px;
+}
+h3{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: rgba(100,183,228,1);
+}
+h4{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 40px;
+  color: rgba(100,183,228,1);
+  text-align: center;
+}
+p{
+  font-size: 20px;
+  color: #353238;
+}
+#logo{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+#button{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 30px;
+}
+button{
+  font-family: 'Varela Round', sans-serif;
+  color: white;
+  background-color: rgb(155,207,236);
+  font-size: 30px;
+  border: none;
+  border-radius: 12px;
+  padding: 10px;
 }

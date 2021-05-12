@@ -6,35 +6,39 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/pop.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>MyPopUp</title>
     <script src="js/pop.js" defer></script>
   </head>
   <body>
-    <div class="jumbotron jumbotron-fluid";>
-      <div class="container-fluid" style= "background-color: #cfebfd;">
+    <div class="jumbotron";>
+      <div class="container-fluid">
        <h1>My Pop Up</h1>
       </div>
     </div>
     <main>
-    <div class="row">
-   <div class="col-xl-12">
+      <h2>Welcome to My Pop Up!</h2>
+     <br>
+  <div class="row">
+   <div class="col-lg-6">
      <div id="logo">
-     <img src="img/mypopup.png" width=300>
+     <img src="img/mypopup.png" width=400>
      </div>
-     <br>
-     <div id="button">
-     <button onclick="play()">Set Timer</button>
-     </div>
-     <br>
    </div>
-    <h2>Welcome to My Pop Up!</h2>
     <br>
-    <p>My Pop Up is a timed alarm for your browser that reminds you to take a break from the computer.
-       It's easy to lose track of time, so this pop up will set off a sound that will remind you how
-       long you've been working so that you can take the strain off your eyes and go get something to
-       energize yourself so you can get back to working efficiently. Simply click the button to set the
-       timer and we will automatically remind you to take a break!</p>
+    <div class="col-lg-6">
+      <h3>My Pop Up is a timed alarm for your browser that reminds you to take a break from the computer.</h3>
+         <p>It's easy to lose track of time, so this pop up will set off a sound that will remind you how
+         long you've been working so that you can take the strain off your eyes and go get something to
+         energize yourself so you can get back to working efficiently. Simply click the button to set the
+         timer and we will automatically remind you to take a break!</p>
+         <h4>Click to start!</h4>
+       <div id="button">
+       <button onclick="play()">Set Timer</button>
+       </div>
+    </div>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
